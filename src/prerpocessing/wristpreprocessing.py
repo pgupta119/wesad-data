@@ -34,8 +34,8 @@ class DataProcessor:
 
         # Preprocess TEMP
         wrist_data['TEMP'] = smooth_temp_signal(wrist_data['TEMP'])
-        with open('/Users/prakashgupta/WESAD_Project/data/processed/wrist_data.pkl', 'wb') as file:
-            pickle.dump(wrist_data, file)
+        # with open('/Users/prakashgupta/WESAD_Project/data/processed/wrist_data.pkl', 'wb') as file:
+        #     pickle.dump(wrist_data, file)
 
         return wrist_data
 
